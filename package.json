@@ -1,0 +1,31 @@
+{
+  "name": "exp-library",
+  "version": "1.0.0",
+  "description": "Webapp to expose a Zotero library of literature connected to online experimentation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build",
+    "start": "serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eforsell/exp_library.git"
+  },
+  "author": "Eskil Forsell",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/eforsell/exp_library/issues"
+  },
+  "homepage": "https://github.com/eforsell/exp_library#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "serve": "^14.1.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "typescript": "^4.9.4"
+  }
+}
